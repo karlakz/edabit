@@ -1,0 +1,16 @@
+{
+  "name": "very-easy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "areaOfTriangle.js",
+  "dependencies": {
+    "jest": "^28.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
