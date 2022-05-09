@@ -9,10 +9,10 @@ test('Print an array up to the specified number', () => {
 });
 
 test('Print an array up to the specified number', () => {
-    expect(printArray(0)).toEqual([])
+    expect(printArray(0)).toEqual("You typed wrong number. Use only positive integer numbers please")
 });
 
 test('Print an array up to the specified number', () => {
-    expect(printArray(-3)).toEqual([])
+    expect(printArray(-3)).toEqual("You typed wrong number. Use only positive integer numbers please")
 });
 
