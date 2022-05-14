@@ -4,7 +4,7 @@ const powerCalc = {
     if (voltage == 0 || current == 0) {
         return 0
     }
-    return Number(voltage * current).toFixed(2);
+    return voltage * current;
     }
 }
 

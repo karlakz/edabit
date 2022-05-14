@@ -33,5 +33,5 @@ test('Calculates 0.1 *  2 equal', () => {
 })
 
 test('Calculates 0.1 * 0.1 to equal', () => {
-    expect(powerCalc.circuitPower(0.1, 0.1)).toBe(0.01);
+    expect(powerCalc.circuitPower(0.1, 0.1)).toBeCloseTo(0.01, 2);
 })
